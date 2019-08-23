@@ -11,7 +11,7 @@ git clone https://www.github.com/jmscsedu/201920-csedu-assignments
 ~~~
 5. Create a branch of the repository using your full last name:
 ~~~
-git branch name
+git checkout -b name
 ~~~
 6. Within the directory containing this file (20190823_assignment_01), create a file named *solution.txt*.
 7. Format *solution.txt* as follows:
