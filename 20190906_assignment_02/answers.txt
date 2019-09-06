@@ -14,3 +14,12 @@ of a + b * j, representing the imaginary number of square root of -1 as j.
 
 3. What does python do if you provide a value for a, b, or c that cannot be converted 
 to a number?
+
+Python reports an error "ValueError: could not convert string to float."
+
+4. Handling each of the above problems is an aspect of data validation. This is the process
+of ensuring data meets general specifications for a problem. Why is this process important
+when creating programs such as this one?
+
+This process is important for programs such as this one as unmatching data types would be
+invalid. For instance, it does not make sense to do a math equation with string inputs.
