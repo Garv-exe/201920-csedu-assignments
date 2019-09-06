@@ -1,3 +1,16 @@
 Assignment #02
 Jinho Yoon
 September 6, 2019
+
+1. What does python do if you provide the value 0 for a?
+
+Python reports an error "ZeroDivisionError: float division by zero", as the equation
+divides by a.
+
+2. What does python do if $b^2 - 4ac < 0$?
+
+Python splits the answer into non-imaginary and imaginary numbers, by giving a tuple(?)
+of a + b * j, representing the imaginary number of square root of -1 as j.
+
+3. What does python do if you provide a value for a, b, or c that cannot be converted 
+to a number?
