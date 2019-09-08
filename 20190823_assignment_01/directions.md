@@ -27,9 +27,6 @@ Hello, Mr. Santos!
 git add .
 ~~~
 9. Commit the changes you made to your branch:
-~~~
-git commit -m "Complete Assignment 01."
-~~~
 10. Push your solution to GitHub:
 ~~~
 git push origin name
