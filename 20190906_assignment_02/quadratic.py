@@ -4,13 +4,13 @@
 
 # quadratic formula
 def quadraticFunction(a, b, c): 
-    squared = (b ** 2 - 4 * a * c) ** 0.5
+    disc = (b ** 2 - 4 * a * c) ** 0.5
     # remove duplicate by list(dict.fromkeys()) when squared = 0
-    return list(dict.fromkeys([(-b + squared) / (2 * a), (-b - squared) / (2 * a)]))
+    return list(dict.fromkeys([(-b + disc) / (2 * a), (-b - disc) / (2 * a)]))
 
 print("Quadratic Equation Solver for y = ax^2 + bx + c")
 
-#inputs
+# inputs
 a = float(input("a: "))
 b = float(input("b: "))
 c = float(input("c: "))
@@ -18,5 +18,6 @@ c = float(input("c: "))
 # calculation
 ans = quadraticFunction(a, b, c)
 
+print("Answer:", end=" ") if len(ans) == 1 else print("Answers:", end=" ")
 # *ans iterates over list
 print(*ans, sep=" and ")
