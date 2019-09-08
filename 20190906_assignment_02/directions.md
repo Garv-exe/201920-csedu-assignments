@@ -16,12 +16,7 @@ as either text or comments.
 
 *If you want the above formula to display properly, you should install the "Markdown Enhanced Preview" extension in Visual Studio Code.*
 
-**Questions:**
-
-1. What does python do if you provide the value 0 for *a*?
-2. What does python do if $b^2 - 4ac < 0$?
-3. What does python do if you provide a value for *a*, *b*, or *c* that cannot be converted to a number?
-4. Handling each of the above problems is an aspect of **data validation**. This is the process of ensuring data meets general specifications for a problem. Why is this process important when creating programs such as this one?
+ 
 
 **Submission:**
 To submit your solution, remember that you should be working in the git-initialized folder created last assignment. You can then use the following commands:
