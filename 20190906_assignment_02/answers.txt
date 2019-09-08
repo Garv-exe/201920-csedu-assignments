@@ -1,0 +1,15 @@
+Assignment #02
+Gyungchae Han
+September 6, 2019
+
+1. What does python do if you provide the value 0 for *a*?
+2. What does python do if $b^2 - 4ac < 0$?
+3. What does python do if you provide a value for *a*, *b*, or *c* that cannot be converted to a number?
+4. Handling each of the above problems is an aspect of **data validation**. 
+This is the process of ensuring data meets general specifications for a problem. 
+Why is this process important when creating programs such as this one?
+
+1. Shows an error message with the phrase "cannot devide by zero"
+2. Shows numbers such as -0.4999999999999999+1.9364916731037085j as outputs.
+3. Shows an error message with the phrase "ValueError: invalid literal for int() with base 10: 'input'"
+4. When displaying the results, if you want the output text to show what value it is, the x value needs to be converted into a string to then add it to the "+" string.
