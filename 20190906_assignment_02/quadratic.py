@@ -18,6 +18,6 @@ c = float(input("c: "))
 # calculation
 ans = quadraticFunction(a, b, c)
 
-print("Answer:", end=" ") if len(ans) == 1 else print("Answers:", end=" ")
+print("Answer(s):", end=" ")
 # *ans iterates over list
 print(*ans, sep=" and ")
