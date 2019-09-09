@@ -11,4 +11,11 @@ c = int(input("Please enter value for c = "))
 x1 = (-b + (b**2 - 4*a*c)**(1/2))/(2*a)
 x2 = (-b - (b**2 - 4*a*c)**(1/2))/(2*a)
 
-print("x = " + str(x1))if x1 == x2 else print("x = " + str(x1) + " and x = " + str(x2))
+# print("x = " + str(x1))if x1 == x2 else print("x = " + str(x1) + " and x = " + str(x2))
+
+if x1 == x2:
+    print("x = " + str(x1))
+else:
+    print ("x = " + str(x1) + " and x = " + str(x2))
+    
+    
