@@ -1,3 +1,7 @@
+#Assignment 02
+#Seongmin Jeong
+#2019 Sep 8th
+
 print ("Solve the Quatratic Fuction!")
 a = float(input("Enter the value a: "))
 b = float(input("Enter the value b: "))

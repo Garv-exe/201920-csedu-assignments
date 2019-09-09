@@ -13,4 +13,5 @@ Answer
    I provide 0 for value of a
 2. Python caluclates the number but the value aren't correct
 3. Python cannot handle the process, hence it shows valueerror, cannot convert the value
-4. It is important because 
+4. It is improtant because data validation gives correct output, if there's no data validation, then it will
+   shows the error
