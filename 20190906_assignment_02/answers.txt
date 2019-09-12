@@ -1,3 +1,19 @@
-Assignment #02
-Your Name
-September 6, 2019
+1. What does python do if you provide the value 0 for *a*?
+
+That there is an error in dividing the value zero for the float "a"
+
+2. What does python do if $b^2 - 4ac < 0$?
+
+It change the color to red and when you try to run the code it says that there is an error
+
+3.What does python do if you provide a value for *a*, *b*, or *c* that cannot be converted to a number?
+
+It can not identify the variables because the values are not defined as comomand or any thing else.
+It will show the resluts as a error 
+
+4. Handling each of the above problems is an aspect of **data validation**. 
+This is the process of ensuring data meets general specifications for a problem. 
+Why is this process important when creating programs such as this one?
+
+Because computers need to know everything and programers need to put all information and define 
+everything for the computer to process and present the output 
